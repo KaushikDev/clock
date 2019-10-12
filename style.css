@@ -1,0 +1,51 @@
+body{
+    background: #000;
+}
+.clock{
+    background: rgba(0,0,0,0.75);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 20px solid skyblue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock-face{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+   
+}
+
+.hand{
+    background: #fff;
+    width: 50%;
+    
+    top: 50%;
+    position: absolute;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+}
+
+.sec-hand{
+    background: #f00;
+    height: 1px;
+}
+
+.min-hand{
+    height: 3px;
+    background: #ff0;
+}
+
+.hour-hand{
+    height: 7px;
+}
