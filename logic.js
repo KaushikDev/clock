@@ -22,7 +22,7 @@ function showTime(){
     const hrsDegrees = ((hrs/12) * 360) + 90;
     hourHand.style.transform = `rotate(${hrsDegrees}deg)`;
 
-    console.log(hrs + " : " + mins + " : " + secs);
+   // console.log(hrs + " : " + mins + " : " + secs);
 }
 
 
